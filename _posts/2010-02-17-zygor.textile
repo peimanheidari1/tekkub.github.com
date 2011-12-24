@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Tekkub's Emporium of Random Crap
-subtitle: The TourGuide-Zygor deal
+title: The TourGuide-Zygor deal
 thumbnail: http://img.skitch.com/20100217-c9wmgre3w6s5hrg3jbdk1sm5w7.jpg
 thumbnail_alt: Zygor Guides
 ---

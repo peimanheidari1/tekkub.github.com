@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Tekkub's Emporium of Random Crap
-subtitle: Clearing the Air
+title: Clearing the Air
 ---
 
 The past few weeks I have been very quiet regarding the future of TourGuide.  Now that the Zygor deal has been announced, I'd like to set the record straight.

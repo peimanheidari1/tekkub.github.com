@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Tekkub's Emporium of Random Crap
-subtitle: Good News Everyone!
+title: Good News Everyone!
 thumbnail: http://farm3.static.flickr.com/2528/3824596605_cd32a4e7d5_m.jpg
 thumbnail_alt: Good News Everyone!
 ---

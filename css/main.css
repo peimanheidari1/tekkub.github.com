@@ -8,7 +8,8 @@ CD5B51
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
   background: #E9DFCC;
   color: #352630;
   margin: 0;
@@ -19,6 +20,11 @@ body {
   width: 800px;
   margin: 0 auto;
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #618BA7;
 }
 
 header {
@@ -32,7 +38,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px 0 15px 0;
   font-weight: normal;
   color: #554865;
@@ -41,8 +47,8 @@ header h2 {
 nav {
   font-family: Herculanum;
   float: left;
-  width: 150px;
-  margin-left: -150px;
+  width: 200px;
+  margin-left: -200px;
   text-align: right;
 }
 
@@ -61,31 +67,66 @@ nav .links li {
 nav .links a {
   display: inline;
   padding: 4px 6px 4px 10px;
-  border-top-left-radius: 6px 10px;
-  border-bottom-left-radius: 6px 10px;
   background: #554865;
   color: #E9DFCC;
   text-decoration: none;
 }
 
-article {
-  background: #f9f9f9;
-  padding: 1px 10px 1px 70px;
+nav .links a:hover {
+  background: #CD5B51;
 }
 
-article date {
+article {
+  background: #f9f9f9;
+  padding: 1px 10px;
+  margin-bottom: 35px;
+  min-height: 300px;
+}
+
+article h1, article h2, article h3, article h4 {
+  font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#posts {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#posts li {
+  list-style-type: none;
+  padding: 6px 0;
+  border-top: 2px solid #E9DFCC;
+}
+
+#posts li:first-child {
+  border: none;
+}
+
+#posts li span {
+  float: right;
+  color: #666;
+}
+
+article.post {
+  padding-left: 70px;
+}
+
+article.post date {
   float: left;
   width: 50px;
   margin-left: -60px;
   margin-top: 15px;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-article date .month {
+article.post date .month {
   font-size: 20px;
 }
 
-article date .day {
+article.post date .day {
   font-family: georgia;
   font-size: 32px;
   font-weight: bold;
@@ -93,6 +134,16 @@ article date .day {
   color: #CD5B51;
 }
 
-article date .year {
+article.post date .year {
   line-height: 30px;
+  font-weight: 400;
+}
+
+article.post h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+article.post p {
+  line-height: 1.7em;
 }

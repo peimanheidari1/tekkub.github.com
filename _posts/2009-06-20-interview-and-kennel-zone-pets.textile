@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Tekkub's Emporium of Random Crap
-subtitle: Interview & Kennel per-zone pet settings
+title: Interview & Kennel per-zone pet settings
 thumbnail: http://farm4.static.flickr.com/3390/3645336112_f563957bfc_m.jpg
 thumbnail_alt: Kennel zone pets
 ---

@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Tekkub's Emporium of Random Crap
-subtitle: Equipment Manager Fun
+title: Equipment Manager Fun
 thumbnail: http://farm4.static.flickr.com/3334/3556511931_027bcbb7e8_t.jpg
 thumbnail_alt: EquipSetUpdater
 ---
