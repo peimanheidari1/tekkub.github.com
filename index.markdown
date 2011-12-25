@@ -3,7 +3,7 @@ layout: default
 title: Tekkub's Crap
 ---
 
-<ul id="posts">
+<ul id="posts" class="index">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title | xml_escape }}</a>

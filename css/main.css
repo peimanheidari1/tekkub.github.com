@@ -87,24 +87,24 @@ article h1, article h2, article h3, article h4 {
   font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#posts {
+.index {
   margin: 0;
   padding: 0;
 
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#posts li {
+.index li {
   list-style-type: none;
   padding: 6px 0;
   border-top: 2px solid #E9DFCC;
 }
 
-#posts li:first-child {
+.index li:first-child {
   border: none;
 }
 
-#posts li span {
+.index li span {
   float: right;
   color: #666;
 }

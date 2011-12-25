@@ -1,11 +1,7 @@
 $(function() {
   if ($("#gh-addons").size() == 1) {
-    var t = Tempo.prepare("gh-addons", {'var_braces' : '\\[\\[\\]\\]', 'tag_braces' : '\\[\\?\\?\\]'})
-
-    var wowi_processed = {}
-    $.each(wowi_names, function(i,v) {
-      console.log(i,v)
-    })
+    var wi = Tempo.prepare("wi-addons", {'var_braces' : '\\[\\[\\]\\]', 'tag_braces' : '\\[\\?\\?\\]'})
+    var gh = Tempo.prepare("gh-addons", {'var_braces' : '\\[\\[\\]\\]', 'tag_braces' : '\\[\\?\\?\\]'})
 
     $("#addon_list").empty()
     $("#addon_list").append(
@@ -16,7 +12,7 @@ $(function() {
 
     // $.getJSON("http://github.com/api/v2/json/repos/show/tekkub?callback=?", function(data) {
     $.getJSON("https://api.github.com/users/tekkub/repos?per_page=200&callback=?", function(data) {
-      console.log(data)
+      var desciptions = {}
 
       data.data.sort(function(a,b) {
         var keya = a.name.toLowerCase()
@@ -31,11 +27,21 @@ $(function() {
                      && v["description"].substring(0,12).toLowerCase() == "wow addon - "
                      && !(v["description"].match("fork"))
         v["description"] = v["description"].substring(12)
-        console.log(v)
+        desciptions[v["name"]] = v["description"]
       })
 
-      t.render(data.data)
+      gh.render(data.data)
 
+
+      var wowi_processed = []
+      $.each(wowi_names, function(i,v) {
+        wowi_processed.push({
+          "name": v,
+          "description": desciptions[v] || desciptions[i],
+          "link": wowi_links[v],
+        })
+      })
+      wi.render(wowi_processed)
 
       // $.each(data.repositories, function(i,item) {
       //   if (item.description.substring(0,12).toLowerCase() == "wow addon - " && !item.description.match("fork")) {
