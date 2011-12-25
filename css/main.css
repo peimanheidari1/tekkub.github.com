@@ -144,6 +144,6 @@ article.post h1 {
   margin: 10px 0;
 }
 
-article.post p {
+article.post p, article.post li {
   line-height: 1.7em;
 }
