@@ -15,4 +15,5 @@ For the sake of this example I'm going to tag The Hitchhiker's Guide to the Gala
 
 When all is said and done, you'll end up with a base list that has each series, and then within the series you'll see each book as a "part".
 
-![](http://cl.ly/1S2a123e083N0t3x212w/IMG_0118.png)
+![](/images/book_list.png)
+![](/images/book_list_2.png)

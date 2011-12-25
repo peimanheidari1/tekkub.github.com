@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Interview & Kennel per-zone pet settings
 thumbnail: http://farm4.static.flickr.com/3390/3645336112_f563957bfc_m.jpg
 thumbnail_alt: Kennel zone pets

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The TourGuide-Zygor deal
 thumbnail: http://img.skitch.com/20100217-c9wmgre3w6s5hrg3jbdk1sm5w7.jpg
 thumbnail_alt: Zygor Guides
@@ -9,7 +9,7 @@ TourGuide has teamed up with "Zygor guides":http://www.zygorguides.com/.  Don't 
 
 <div class="showmore">
 
-h3{clear:both}. WTF Chuck?  You sold out!
+h2{clear:both}. WTF Chuck?  You sold out!
 
 !{float:right; clear:right}http://img.skitch.com/20100217-c9wmgre3w6s5hrg3jbdk1sm5w7.jpg(I've created a device that lets you capture images from your computter screen and post them on the internet!)! Well, I guess you could say that... but let me explain myself!
 

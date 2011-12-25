@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Horde wrath guides (finally!)
 thumbnail: http://farm4.static.flickr.com/3653/3582633349_24f47094b8_t.jpg
 thumbnail_alt: Horde guides!
