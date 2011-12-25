@@ -7,7 +7,11 @@ title: Tekkub's Crap
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title | xml_escape }}</a>
-      <span>{{ post.date | date: "%B %d, %Y" }}</span>
+      <span>
+      	<time datetime="{{ post.date | date: "%Y-%m-%d" }}">
+      		{{ post.date | date: "%B %d, %Y" }}
+      	</time>
+      </span>
     </li>
   {% endfor %}
 </ul>

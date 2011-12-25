@@ -3,6 +3,8 @@ layout: default
 title: Addons
 ---
 
+# My WoW Addons
+
 ## Released
 
 <ul id="wi-addons" class="index">

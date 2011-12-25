@@ -80,11 +80,22 @@ article {
   background: #f9f9f9;
   padding: 1px 10px;
   margin-bottom: 35px;
-  min-height: 300px;
+  min-height: 250px;
 }
 
 article h1, article h2, article h3, article h4 {
   font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+article h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+article h2 {
+  font-size: 32px;
+  border-bottom: 2px solid #E9DFCC;
+  margin-bottom: 0;
 }
 
 .index {
@@ -138,16 +149,6 @@ article.post date .day {
 article.post date .year {
   line-height: 30px;
   font-weight: 400;
-}
-
-article.post h1 {
-  font-size: 40px;
-  margin: 10px 0;
-}
-
-article.post h2 {
-  font-size: 32px;
-  border-bottom: 2px solid #E9DFCC;
 }
 
 article.post p, article.post li {

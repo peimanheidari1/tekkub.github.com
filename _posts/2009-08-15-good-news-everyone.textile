@@ -7,8 +7,6 @@ thumbnail_alt: Good News Everyone!
 
 This week we've got your usual patch fixes and two new addons, "Good News Everyone!":gne and "Gnomish Vendor Shrinker":gvs
 
-<div class="showmore">
-
 h2{clear:both}. Good News Everyone!
 
 !{float:right; clear:right}http://farm3.static.flickr.com/2528/3824596605_9bafcf2a4a_o.png(I've created a device that lets you capture images from your computter screen and post them on the internet!)! Yes, I really named an addon that.
@@ -36,8 +34,6 @@ p((. "Quel'evel":http://www.wowinterface.com/downloads/fileinfo.php?id=8631 was 
 "Kennel":http://www.wowinterface.com/downloads/info4442-Kennel.html got some fixes to some not-patch-caused issues.
 "tekKompare":http://www.wowinterface.com/downloads/fileinfo.php?id=6837 wasn't broken by the patch, but some new goodness was added which it now takes advantage of.
 "Bimbo":http://www.wowinterface.com/downloads/info12801-Bimbo.html wasn't broken either, but I added some stuff for lower level toons, since I'm currently leveling a bearcow.
-
-</div>
 
 [gvs]http://www.wowinterface.com/downloads/info14425-GnomishVendorShrinker.html
 [gne]http://www.wowinterface.com/downloads/info14426-GoodNewsEveryone.html

@@ -11,7 +11,7 @@ layout: nil
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://tekkub.net/</id>
   <author>
-    <name>Tekkub Stoutwrithe</name>
+    <name>Tekkub</name>
     <email>tekkub@gmail.com</email>
   </author>
 
