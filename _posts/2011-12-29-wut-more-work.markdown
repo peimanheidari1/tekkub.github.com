@@ -12,7 +12,7 @@ Tonight was one of those nights. Filled with scandal, debauchery, fur, porn, dri
 <blockquote class="twitter-tweet"><p>I just now found out, @<a href="https://twitter.com/luckiestmonkey">luckiestmonkey</a>'s dad made me a furry. Another mystery solved.</p>&mdash; tekkub (@tekkub) <a href="https://twitter.com/tekkub/status/152252267783917569" data-datetime="2011-12-29T04:59:04+00:00">December 29, 2011</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-It turns out, Melissa's dad worked at Accolade when Bugsy came out, a game which probably had far more influence on my young impressionable mind than I'd like to admit.
+It turns out, Melissa's dad worked at Accolade when Bubsy came out, a game which probably had far more influence on my young impressionable mind than I'd like to admit.
 
 A short time later, [@bryanveloso](https://twitter.com/#!/bryanveloso) gave me this gift:
 
