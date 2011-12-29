@@ -154,3 +154,12 @@ article.post date .year {
 article.post p, article.post li {
   line-height: 1.7em;
 }
+
+article.post img {
+  max-width: 100%;
+}
+
+.emoji {
+  width: 18px;
+  vertical-align: -3px;
+}
