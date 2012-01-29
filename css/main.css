@@ -28,13 +28,13 @@ a {
 }
 
 header {
-  font-family: Chalkduster;
+  font-family: "Trade Winds";
   padding-left: 10px;
 }
 
 header h1 {
   font-size: 34px;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
 }
 
 header h2 {
@@ -45,7 +45,7 @@ header h2 {
 }
 
 nav {
-  font-family: Herculanum;
+  font-family: "Trade Winds", sans-serif;
   float: left;
   width: 200px;
   margin-left: -200px;
@@ -61,7 +61,7 @@ nav .links {
 }
 
 nav .links li {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 nav .links a {
