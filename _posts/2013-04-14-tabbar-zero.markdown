@@ -43,6 +43,7 @@ For the tabs that you need or want to do, use various context-appropriate queues
 * Purchased items that have not been delivered yet are automatically added to [Slice][4] from my email (and I archive the notification email).
 * Shows and movies to watch are queued up for download.
 * Music to listen to is saved on rdio or spotify.
+* Games to play are added to my Steam wishlist (because who am I kidding, if it's not on Steam I'll never play it).
 
 Now then, we're still left with a bunch of "hey that's a cool site" and "I want to make one of those" tabs.  For these I keep a very simple bucket list, a bookmark folder named "TabOut":
 
