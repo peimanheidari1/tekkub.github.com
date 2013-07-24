@@ -11,7 +11,7 @@ I need to read that article.  There's a neat thing I should try to make.  Oh shi
 
 **You are a tab hoarder**
 
-The solution to this is actually a lot simpler than you'd imagine.  When you want to leave a tab open, simply conducer why and take one of three actions:
+The solution to this is actually a lot simpler than you'd imagine.  When you want to leave a tab open, simply consider why you're leaving it open and take one of three actions:
 
 * Do it right now, or in the very near future
 * Queue it up to deal with later
