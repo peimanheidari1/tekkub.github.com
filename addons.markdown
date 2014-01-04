@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Addons
+article-class: addons
 ---
 
 # My WoW Addons
@@ -10,6 +11,11 @@ Beta and release versions of my addons are available on [WoWInterface][1] and
 versions are available under my [GitHub user][4].
 
 Please direct all feedback to the addon's issue tracker on GitHub.
+
+<div class="spinner">
+  <div class="cube1"></div>
+  <div class="cube2"></div>
+</div>
 
 ## Released
 

@@ -3,14 +3,6 @@ $(function() {
     var wi = Tempo.prepare("wi-addons", {'var_braces' : '\\[\\[\\]\\]', 'tag_braces' : '\\[\\?\\?\\]'})
     var gh = Tempo.prepare("gh-addons", {'var_braces' : '\\[\\[\\]\\]', 'tag_braces' : '\\[\\?\\?\\]'})
 
-    $("#addon_list").empty()
-    $("#addon_list").append(
-      $("<tr>").append(
-        $("<td>").text("Loading...")
-      )
-    )
-
-    // $.getJSON("http://github.com/api/v2/json/repos/show/tekkub?callback=?", function(data) {
     $.getJSON("https://api.github.com/users/tekkub/repos?per_page=200&callback=?", function(data1) {
       $.getJSON("https://api.github.com/orgs/TekNoLogic/repos?per_page=200&callback=?", function(data2) {
         var data = data1.data.concat(data2.data)
@@ -32,6 +24,8 @@ $(function() {
           desciptions[v["name"]] = v["description"]
         })
 
+        $(".spinner").remove()
+        $(".addons h2, .addons ul").show()
         gh.render(data)
 
 
