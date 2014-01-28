@@ -11,7 +11,12 @@
 
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
 
-    <script type="text/javascript"> function delayer() {window.location = "http://tekkub.net"} </script>
+    <script type="text/javascript">
+      function delayer() {
+        if (window.location != "http://www.tekkub.net/404.html")
+          window.location = "http://www.tekkub.net";
+      }
+    </script>
   </head>
 
   <body onLoad="setTimeout('delayer()', 5000)">
